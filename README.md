@@ -1,8 +1,6 @@
-# React + Vite
+npm install
+sqlite3 db/impiegati.db < db/create_database.sql
+npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Poi ho runnato anche il file python entrando nella cartella dove è presente il file (quindi scripts):
+python3 chiamata.py
